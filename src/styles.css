@@ -1,0 +1,103 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.credit-card {
+  width: 450px;
+
+  border-radius: 20px;
+  padding: 25px 20px;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPcagGo4cQZHq6MXHzVMQP_1RG9NiVxdR-8EqmTe6eY2Kd7AAYYQ");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.credit-card h2,
+h6,
+span {
+  color: white;
+  font-weight: bold;
+}
+
+.card-title {
+  align-self: flex-end;
+  flex: 1;
+}
+
+.card-content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 3;
+  padding: 15px 0px;
+}
+
+.div-number {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.little {
+  font-size: 8px;
+  font-weight: 100;
+}
+.div-visa-img {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.visa-img {
+  width: 80px;
+  height: 110px;
+}
+
+.sub-content {
+  display: flex;
+  width: 100%;
+}
+
+.img-puce {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+}
+
+.border {
+  border: solid 1px;
+}
+
+.code {
+  color: goldenrod;
+  font-weight: 600;
+  font-size: 31px;
+}
+
+.card-holder {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-form {
+  display: flex;
+  flex-direction: column;
+}
